@@ -1,0 +1,39 @@
+delete a char : x
+delete a char in backspace mode : X
+insert is hitting i
+
+delete a line is dd
+
+delete multi lines is #dd in command mode
+(# means number of lines)
+
+you can go into command mode using ESC
+
+:wq is write and quit
+:q! is quit without saving
+:w  is write
+:q  is quit
+
+redo : ctrl + r
+undo : u
+
+search : /keyword
+move in search : n (lower your cursor), shift + n (upper your cursor)
+
+moving up and down line : j, k
+fist line, last line, like number : g or [[, G or ]], ngg
+top of the screen : H
+middle of the screen : M
+bottom of the screen : L
+current line to top, middle, bottom : zt vs zz vs zb
+scroll one line : ctrl+y and ctrl+e
+scroll half-page : ctrl+u and ctrl+d
+scroll full-page : ctrl+b and ctrl+f
+beginning of line : 0
+first char of line : ^
+end of line : $
+last char on line : g_
+move to a line by percent of file : n%
+* vs #
+word-wise navigation : e vs E, b vs B, w vs W
+don't be afraid to set marks: m vs M
