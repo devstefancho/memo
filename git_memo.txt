@@ -1,0 +1,12 @@
+<STASH>
+Stash sequence
+1. stash save "message"
+2. stash list
+3. stash apply <stash_id in the list>
+4. stash drop (if you want to delete stash)
+5. stash pop (apply and drop in one step)
+6. checkout -- . (clean up files like a last commit status)
+
+<REMOVE>
+1. git rm <file_name> (you should use this rather than rm)
+2. rm (only for untracked files, not use this for unstaged files)
